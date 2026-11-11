@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Faisal Shariff</title>
+<meta name="description" content="Faisal Shariff, CS and Linguistics student at SJSU. AI systems and robotics projects: ATMO, Syllabi, DriftWatch, drone control, Rescue Rover.">
+<meta name="theme-color" content="#14112b">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;500;700&amp;family=Press+Start+2P&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#14112b}
+a{color:inherit}
+a:hover{text-decoration:underline}
+</style>
+</head>
+<body>
+<div style="background:#14112b;color:#f1eefc;font-family:'Pixelify Sans',ui-monospace,monospace;font-size:18px;line-height:1.5;min-height:100vh">
+
+<div style="max-width:1120px;margin:0 auto;padding:24px clamp(16px,5vw,32px);display:flex;flex-wrap:wrap;gap:16px;align-items:center;justify-content:space-between">
+<a href="#top" style="text-decoration:none;font-family:'Press Start 2P',monospace;font-size:14px;color:#ffd24a">FS</a>
+<nav style="display:flex;flex-wrap:wrap;gap:8px 24px;color:#b4aedb;font-size:17px">
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
+<a href="https://github.com/faisalshariff123">GitHub</a>
+<a href="https://www.linkedin.com/in/faisal-shariff-3b7215328/">LinkedIn</a>
+</nav>
+</div>
+
+<section id="top" style="max-width:1120px;margin:0 auto;padding:48px clamp(16px,5vw,32px) 96px;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(440px,100%),1fr));gap:48px;align-items:center">
+<div style="display:flex;flex-direction:column;gap:28px">
+<div style="font-family:'Press Start 2P',monospace;font-size:12px;color:#5ee7ff;letter-spacing:0.04em">PLAYER 1</div>
+<h1 style="margin:0;font-family:'Press Start 2P',monospace;font-size:clamp(30px,5.4vw,60px);line-height:1.3;font-weight:400">FAISAL<br>SHARIFF</h1>
+<p style="margin:0;font-size:clamp(19px,2vw,23px);max-width:520px;color:#f1eefc">CS + Linguistics at SJSU. I build AI systems that get evaluated, and robotics software that runs on real hardware.</p>
+<div style="color:#b4aedb;font-size:17px">Status: open to Summer 2027 software and firmware internships</div>
+<div style="display:flex;flex-wrap:wrap;gap:16px">
+<a href="#projects" style="min-height:48px;box-sizing:border-box;padding:0 22px;display:inline-flex;align-items:center;background:#ffd24a;color:#14112b;font-family:'Press Start 2P',monospace;font-size:12px;text-decoration:none;box-shadow:4px 4px 0 #05040f">&gt; PROJECTS</a>
+<a href="resume.pdf" style="min-height:48px;box-sizing:border-box;padding:0 22px;display:inline-flex;align-items:center;border:3px solid #f1eefc;font-family:'Press Start 2P',monospace;font-size:12px;text-decoration:none;box-shadow:4px 4px 0 #05040f">RESUME</a>
+</div>
+</div>
+
+<div style="background:#1d1940;border:4px solid #3a3470;box-shadow:6px 6px 0 #05040f;padding:16px;display:flex">
+<img src="images/hero.png" alt="Pixel art city street at dusk with a blue car driving past lit-up skyscrapers" style="width:100%;height:auto;display:block;image-rendering:pixelated">
+</div>
+</section>
+
+<section id="projects" style="max-width:1120px;margin:0 auto;padding:0 clamp(16px,5vw,32px) 96px;display:flex;flex-direction:column;gap:32px">
+<h2 style="margin:0;font-family:'Press Start 2P',monospace;font-size:clamp(18px,2.4vw,24px);line-height:1.4;font-weight:400;color:#ffd24a">SELECT STAGE</h2>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(440px,100%),1fr));gap:32px">
+
+<article style="background:#1d1940;border:4px solid #3a3470;box-shadow:6px 6px 0 #05040f;padding:24px;display:flex;flex-direction:column;gap:16px">
+<div style="font-family:'Press Start 2P',monospace;font-size:12px;color:#5ee7ff">STAGE 1</div>
+<h3 style="margin:0;font-family:'Press Start 2P',monospace;font-size:20px;line-height:1.4;font-weight:400">ATMO</h3>
+<p style="margin:0">A drone atmosphere profiler. A Raspberry Pi payload gives a drone live in-flight air data (altitude, climb rate, turbulence) with no internet needed. Built at Cal Hacks 13.0.</p>
+<div style="background:#0d0b1f;border:3px solid #6d65b0;padding:12px 0;display:flex;justify-content:center"><div style="position:relative;width:min(100%,232px);aspect-ratio:9/16;border:3px dashed #6d65b0;box-sizing:border-box"><div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;text-align:center;padding:12px;color:#b4aedb;font-size:16px">[ATMO DEMO VIDEO, 9:16 portrait]</div><video src="images/atmo.mp4" muted loop playsinline autoplay controls preload="metadata" aria-label="ATMO dashboard demo, portrait video" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;background:#0d0b1f;opacity:0" onloadeddata="this.style.opacity=1;this.parentNode.style.border='0'"></video></div></div>
+<div style="display:grid;grid-template-columns:76px 1fr;gap:10px 14px;font-size:17px">
+<span style="font-family:'Press Start 2P',monospace;font-size:11px;color:#b4aedb;padding-top:4px">STACK</span><span>Python, FastAPI, I2C, Raspberry Pi, Grove SPA06-003 barometer</span>
+<span style="font-family:'Press Start 2P',monospace;font-size:11px;color:#b4aedb;padding-top:4px">RESULT</span><span>5 Hz pressure sampling, median-of-5 + EMA spike filter, dashboard refreshing every 1 s over its own offline wifi hotspot.</span>
+<span style="font-family:'Press Start 2P',monospace;font-size:11px;color:#b4aedb;padding-top:4px">ROLE</span><span>Cal Hacks 13.0, Oct 2026</span>
+</div>
+<a href="https://github.com/faisalshariff123/ATMO" style="color:#ffd24a;min-height:44px;display:inline-flex;align-items:center">&gt; View on GitHub</a>
+</article>
+
+<article style="background:#1d1940;border:4px solid #3a3470;box-shadow:6px 6px 0 #05040f;padding:24px;display:flex;flex-direction:column;gap:16px">
+<div style="font-family:'Press Start 2P',monospace;font-size:12px;color:#5ee7ff">STAGE 2</div>
+<h3 style="margin:0;font-family:'Press Start 2P',monospace;font-size:20px;line-height:1.4;font-weight:400">SYLLABI</h3>
+<p style="margin:0">Upload a course syllabus PDF, get every deadline and exam as calendar reminders. Adopted by 10+ students. The eval harness caught a real hallucination bug.</p>
+<img src="images/syllabi.png" alt="Syllabi app showing deadlines extracted from an uploaded syllabus in an editable table" style="width:100%;height:220px;object-fit:cover;object-position:top;display:block;border:3px solid #6d65b0">
+<div style="display:grid;grid-template-columns:76px 1fr;gap:10px 14px;font-size:17px">
+<span style="font-family:'Press Start 2P',monospace;font-size:11px;color:#b4aedb;padding-top:4px">STACK</span><span>FastAPI, Gemini, AWS, Netlify</span>
+<span style="font-family:'Press Start 2P',monospace;font-size:11px;color:#b4aedb;padding-top:4px">RESULT</span><span>89% recall on deadline extraction, checked against ground-truth deadlines.</span>
+<span style="font-family:'Press Start 2P',monospace;font-size:11px;color:#b4aedb;padding-top:4px">ROLE</span><span>Solo build, Jul to Aug 2026</span>
+</div>
+<a href="https://github.com/faisalshariff123/Syllabi" style="color:#ffd24a;min-height:44px;display:inline-flex;align-items:center">&gt; View on GitHub</a>
+</article>
+
+<article style="background:#1d1940;border:4px solid #3a3470;box-shadow:6px 6px 0 #05040f;padding:24px;display:flex;flex-direction:column;gap:16px">
+<div style="font-family:'Press Start 2P',monospace;font-size:12px;color:#5ee7ff">STAGE 3</div>
+<h3 style="margin:0;font-family:'Press Start 2P',monospace;font-size:20px;line-height:1.4;font-weight:400">DRONE CONTROL PIPELINE</h3>
+<p style="margin:0">A Raspberry Pi Zero 2W that flies a drone whose receiver died, turning wireless gamepad input into Betaflight flight-controller commands.</p>
+<img src="images/drone-pipeline.jpg" alt="Quadcopter on a table with a Raspberry Pi Zero 2W mounted on top of the frame" style="width:100%;aspect-ratio:4/3;object-fit:cover;object-position:50% 63%;display:block;border:3px solid #6d65b0">
+<div style="display:grid;grid-template-columns:76px 1fr;gap:10px 14px;font-size:17px">
+<span style="font-family:'Press Start 2P',monospace;font-size:11px;color:#b4aedb;padding-top:4px">STACK</span><span>Raspberry Pi Zero 2W, UDP, UART/USB, Betaflight</span>
+<span style="font-family:'Press Start 2P',monospace;font-size:11px;color:#b4aedb;padding-top:4px">RESULT</span><span>20 to 50 ms gamepad to flight controller. UDP over TCP to avoid head-of-line blocking, plus a threading lock on serial writes.</span>
+<span style="font-family:'Press Start 2P',monospace;font-size:11px;color:#b4aedb;padding-top:4px">ROLE</span><span>Built Nov 2025 to Feb 2026</span>
+</div>
+<a href="https://github.com/faisalshariff123/pi-betaflight-link" style="color:#ffd24a;min-height:44px;display:inline-flex;align-items:center">&gt; View on GitHub</a>
+</article>
+
+<article style="background:#1d1940;border:4px solid #3a3470;box-shadow:6px 6px 0 #05040f;padding:24px;display:flex;flex-direction:column;gap:16px">
+<div style="font-family:'Press Start 2P',monospace;font-size:12px;color:#5ee7ff">STAGE 4</div>
+<h3 style="margin:0;font-family:'Press Start 2P',monospace;font-size:20px;line-height:1.4;font-weight:400">DRIFTWATCH</h3>
+<p style="margin:0">Flags when a company's or public figure's news coverage suddenly shifts in tone or topic. Scored across 370+ real news articles.</p>
+<img src="images/driftwatch.png" alt="DriftWatch dashboard tracking Tesla coverage with drift reading, themes and source articles" style="width:100%;height:220px;object-fit:cover;object-position:top;display:block;border:3px solid #6d65b0">
+<div style="display:grid;grid-template-columns:76px 1fr;gap:10px 14px;font-size:17px">
+<span style="font-family:'Press Start 2P',monospace;font-size:11px;color:#b4aedb;padding-top:4px">STACK</span><span>SerpApi, RQ + Redis, sentence-transformers, Postgres + pgvector, FastAPI, Chart.js</span>
+<span style="font-family:'Press Start 2P',monospace;font-size:11px;color:#b4aedb;padding-top:4px">RESULT</span><span>Drift = cosine distance from an entity's embedding centroid. Every outlier links back to its source article.</span>
+<span style="font-family:'Press Start 2P',monospace;font-size:11px;color:#b4aedb;padding-top:4px">ROLE</span><span>Scoring, API and dashboard. Teammate built ingest and infra. DevNetwork API World Hackathon.</span>
+</div>
+<a href="https://github.com/faisalshariff123/DriftWatch" style="color:#ffd24a;min-height:44px;display:inline-flex;align-items:center">&gt; View on GitHub</a>
+</article>
+
+<article style="background:#1d1940;border:4px solid #3a3470;box-shadow:6px 6px 0 #05040f;padding:24px;display:flex;flex-direction:column;gap:16px">
+<div style="font-family:'Press Start 2P',monospace;font-size:12px;color:#5ee7ff">STAGE 5 · IN PROGRESS</div>
+<h3 style="margin:0;font-family:'Press Start 2P',monospace;font-size:20px;line-height:1.4;font-weight:400">AUTONOMOUS DRONE COMPANION</h3>
+<p style="margin:0">A two-person build of a 5-inch autonomous quadcopter. A Raspberry Pi Zero 2W companion streams live MAVLink data to QGroundControl and C++17 telemetry software, tested in ArduPilot SITL.</p>
+<img src="images/drone-companion.jpg" alt="Unassembled carbon-fiber drone frame with four motors lying on carpet" style="width:100%;height:220px;object-fit:cover;object-position:center;display:block;border:3px solid #6d65b0">
+<div style="display:grid;grid-template-columns:76px 1fr;gap:10px 14px;font-size:17px">
+<span style="font-family:'Press Start 2P',monospace;font-size:11px;color:#b4aedb;padding-top:4px">STACK</span><span>C++17, MAVLink2, ArduCopter 4.7.2, mavlink-router, systemd, Raspberry Pi Zero 2W</span>
+<span style="font-family:'Press Start 2P',monospace;font-size:11px;color:#b4aedb;padding-top:4px">RESULT</span><span>Radio and GCS failsafes trigger in about 2 seconds and clear when the link returns. Xbox-controller flight over Wi-Fi.</span>
+<span style="font-family:'Press Start 2P',monospace;font-size:11px;color:#b4aedb;padding-top:4px">ROLE</span><span>Two-person build, in progress</span>
+</div>
+<a href="https://github.com/rizwanuddin/drone-companion" style="color:#ffd24a;min-height:44px;display:inline-flex;align-items:center">&gt; View on GitHub</a>
+</article>
+
+<article style="background:#1d1940;border:4px solid #3a3470;box-shadow:6px 6px 0 #05040f;padding:24px;display:flex;flex-direction:column;gap:16px">
+<div style="font-family:'Press Start 2P',monospace;font-size:12px;color:#5ee7ff">STAGE 6</div>
+<h3 style="margin:0;font-family:'Press Start 2P',monospace;font-size:20px;line-height:1.4;font-weight:400">RESCUE ROVER</h3>
+<p style="margin:0">A rover that rescues stuck RC cars. YOLOv8 detects the stuck car and a Raspberry Pi drives steering and throttle servos from live camera feedback.</p>
+<img src="images/rescue-rover.png" alt="Top-down view of the Rescue Rover RC truck with its Raspberry Pi, wiring and battery exposed in the chassis" style="width:100%;height:auto;display:block;border:3px solid #6d65b0">
+<div style="display:grid;grid-template-columns:76px 1fr;gap:10px 14px;font-size:17px">
+<span style="font-family:'Press Start 2P',monospace;font-size:11px;color:#b4aedb;padding-top:4px">STACK</span><span>Python, Raspberry Pi, PCA9685, YOLOv8, Roboflow</span>
+<span style="font-family:'Press Start 2P',monospace;font-size:11px;color:#b4aedb;padding-top:4px">RESULT</span><span>95.8% mAP@50-95 on a held-out test split, trained on 284 images (self-collected plus Roboflow Universe).</span>
+<span style="font-family:'Press Start 2P',monospace;font-size:11px;color:#b4aedb;padding-top:4px">ROLE</span><span>Feb to Nov 2026</span>
+</div>
+</article>
+
+</div>
+<h2 style="margin:32px 0 0;font-family:'Press Start 2P',monospace;font-size:clamp(16px,2vw,20px);line-height:1.4;font-weight:400;color:#ffd24a">BONUS STAGES</h2>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(300px,100%),1fr));gap:32px">
+<article style="background:#1d1940;border:4px solid #3a3470;box-shadow:6px 6px 0 #05040f;padding:24px;display:flex;flex-direction:column;gap:14px">
+<div style="font-family:'Press Start 2P',monospace;font-size:11px;color:#5ee7ff;line-height:1.5">HACK HAYWARD 2026</div>
+<h3 style="margin:0;font-family:'Press Start 2P',monospace;font-size:16px;line-height:1.4;font-weight:400">MENUMIND</h3>
+<p style="margin:0;font-size:17px">Upload a menu PDF or image. A Neo4j graph plus Perplexity Sonar answers questions using only dishes in that graph, so it can't invent dishes, prices or allergens. Built in 19 hours.</p>
+</article>
+<article style="background:#1d1940;border:4px solid #3a3470;box-shadow:6px 6px 0 #05040f;padding:24px;display:flex;flex-direction:column;gap:14px">
+<div style="font-family:'Press Start 2P',monospace;font-size:11px;color:#5ee7ff;line-height:1.5">APR 2026</div>
+<h3 style="margin:0;font-family:'Press Start 2P',monospace;font-size:16px;line-height:1.4;font-weight:400">ACCESSCANVAS</h3>
+<p style="margin:0;font-size:17px">A WCAG 2.2 contrast auditor. Multi-pass OCR finds the text, the contrast formulas flag what fails 4.5:1 or 3:1, and Gemini writes alt-text. React, Flask, Docker.</p>
+<a href="https://github.com/faisalshariff123/AccessCanvas" style="color:#ffd24a;min-height:44px;display:inline-flex;align-items:center;margin-top:auto">&gt; View on GitHub</a>
+</article>
+<article style="background:#1d1940;border:4px solid #3a3470;box-shadow:6px 6px 0 #05040f;padding:24px;display:flex;flex-direction:column;gap:14px">
+<div style="font-family:'Press Start 2P',monospace;font-size:11px;color:#5ee7ff;line-height:1.5">CAL HACKS 12.0, OCT 2025</div>
+<h3 style="margin:0;font-family:'Press Start 2P',monospace;font-size:16px;line-height:1.4;font-weight:400">SLEEP COPILOT</h3>
+<p style="margin:0;font-size:17px">Claude-powered bedtime stories, sleep tips and dream analysis, with Fish Audio text-to-speech narration that falls back to text if the call fails.</p>
+</article>
+</div>
+</section>
+
+<section id="contact" style="max-width:1120px;margin:0 auto;padding:0 clamp(16px,5vw,32px) 72px">
+<div style="background:#1d1940;border:4px solid #3a3470;box-shadow:6px 6px 0 #05040f;padding:32px 24px;display:flex;flex-direction:column;gap:20px">
+<h2 style="margin:0;font-family:'Press Start 2P',monospace;font-size:clamp(16px,2.2vw,22px);line-height:1.4;font-weight:400;color:#ffd24a">CONTINUE?</h2>
+<div style="display:flex;flex-wrap:wrap;gap:12px 32px;font-size:19px">
+<a href="mailto:faisal.shariff@sjsu.edu" style="color:#ffd24a">faisal.shariff@sjsu.edu</a>
+<a href="https://www.linkedin.com/in/faisal-shariff-3b7215328/">LinkedIn</a>
+<a href="https://github.com/faisalshariff123">GitHub</a>
+</div>
+<div style="color:#b4aedb;font-size:16px">B.S. Computer Science and Linguistics, San Jose State University, May 2028</div>
+</div>
+</section>
+
+</div>
+</body>
+</html>
